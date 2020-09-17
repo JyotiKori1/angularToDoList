@@ -1,0 +1,42 @@
+INFO    2020-09-17 15:34:38,203 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 15:48:47,296 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 15:48:59,347 [main] commonLib.BaseTest2  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 15:49:01,102 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 15:50:46,426 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 15:51:10,289 [main] todos.todoscrud.CRUDToDo  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 15:51:12,639 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 16:16:26,184 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:24:12,449 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:25:03,079 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:26:20,991 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:26:28,191 [main] todos.todoscrud.CRUDToDo  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 16:26:30,112 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 16:26:30,299 [main] modules.Filter  - ListOfCompleted: 1
+INFO    2020-09-17 16:26:30,338 [main] modules.Filter  - Pressent
+INFO    2020-09-17 16:43:20,681 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:46:48,037 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 16:56:02,690 [main] commonLib.utilLib  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 16:59:53,043 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:00:01,331 [main] commonLib.UtilLib  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:00:01,331 [main] todos.todoscrud.CRUDToDo  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:00:03,378 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 17:00:03,677 [main] modules.Filter  - ListOfCompleted: 1
+INFO    2020-09-17 17:00:03,714 [main] modules.Filter  - Pressent
+INFO    2020-09-17 17:14:57,227 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:15:05,638 [main] commonLib.UtilLib  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:15:05,639 [main] todos.todoscrud.CRUDToDoTest  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:15:07,620 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 17:15:07,723 [main] modules.Filter  - ListOfCompleted: 1
+INFO    2020-09-17 17:15:07,755 [main] modules.Filter  - Pressent
+INFO    2020-09-17 17:15:31,361 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:17:21,556 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:18:09,993 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:18:45,780 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:18:53,116 [main] commonLib.UtilLib  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:18:53,117 [main] todos.todoscrud.CRUDToDoTest  - [Healthy LifeStyle, Have Enough Water, Have Cool Mind]
+INFO    2020-09-17 17:18:55,076 [main] modules.Filter  - ItemsLeft : 2
+INFO    2020-09-17 17:18:55,202 [main] modules.Filter  - ListOfCompleted: 1
+INFO    2020-09-17 17:18:55,243 [main] modules.Filter  - Pressent
+INFO    2020-09-17 17:19:16,058 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:25:17,577 [main] commonLib.BaseTest2  - Initialzing Browser
+INFO    2020-09-17 17:36:38,588 [main] commonLib.BaseTest2  - Initialzing Browser
