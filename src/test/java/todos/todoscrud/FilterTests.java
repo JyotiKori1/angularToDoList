@@ -14,6 +14,8 @@ import modules.Filter;
 
 public class FilterTests extends BaseTest {
 	
+	/* This test designed to test in parallel if required */
+	
 	//Filter ToDo List
 		 @Test
 		 public void activeFilter()

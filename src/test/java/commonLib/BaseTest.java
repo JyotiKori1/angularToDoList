@@ -19,13 +19,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import jdk.internal.org.jline.utils.Log;
 
 public class BaseTest {
+	
+	/* This is Base class to configure and initialise framework */
 
 
      protected WebDriver driver;
      protected static Logger logger = LogManager.getLogger(BaseTest.class);  
 
     @BeforeTest
-    public void setupDriver(ITestContext ctx) throws MalformedURLException {
+    public void setupDriver() throws MalformedURLException {
         
     	BasicConfigurator.configure();  
     	logger.info("Initialzing Browser");
@@ -38,6 +40,8 @@ public class BaseTest {
         	WebDriverManager.chromedriver().setup();
    		 driver = new ChromeDriver();
         }
+        
+        driver.manage().window().maximize();
 
     }
 

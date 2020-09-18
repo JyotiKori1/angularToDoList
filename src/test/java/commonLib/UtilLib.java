@@ -26,7 +26,7 @@ public class UtilLib {
 	/* Define logger to print logs */
 
 	Logger logger = LogManager.getLogger(UtilLib.class);  
-	 public Properties getFileFromResourceAsStream(String fileName) {
+	 public Properties getFileFromResourceAsStream(String fileName)  {
 
 	        // The class loader that loaded the class
 		 Properties prop = null;
@@ -43,15 +43,15 @@ public class UtilLib {
 				throw new FileNotFoundException("property file '" + fileName + "' not found in the classpath");
 			}
 		    
-		 } catch (IOException io) {
-		     io.printStackTrace();
+		 } catch (IOException ex) {
+		    System.err.print(ex);
 		 }
 		 
 		 return prop;
 
 	    }
 	 
-	 public InputStream getFileFromResourceAsStream1(String fileName) {
+	 public InputStream getFileFromResourceAsStream1(String fileName) throws ToDoException{
 
 	        // The class loader that loaded the class
 	        ClassLoader classLoader = getClass().getClassLoader();
@@ -59,7 +59,7 @@ public class UtilLib {
 
 	        // the stream holding the file content
 	        if (inputStream == null) {
-	            throw new IllegalArgumentException("file not found! " + fileName);
+	            throw new ToDoException("file not found at the specified path, make sure file name and path are specified correctly! " + fileName);
 	        } else {
 	            return inputStream;
 	        }
@@ -71,7 +71,13 @@ public class UtilLib {
 	 {
 		 List <String> itemsToAdd=new ArrayList<String>();
 		
-		 InputStream fis= getFileFromResourceAsStream1("/ToDoItems.txt");
+		 InputStream fis=null;
+		try {
+			fis = getFileFromResourceAsStream1("ToDoItems.txt");
+		} catch (ToDoException e) {
+			// TODO Auto-generated catch block
+			System.err.print(e);
+		}
 		
 		 InputStreamReader isr = new InputStreamReader(fis,
                  StandardCharsets.UTF_8);
