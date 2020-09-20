@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46496" started-at="2020-09-20T09:48:23Z" finished-at="2020-09-20T09:49:09Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="CRUDToDoTest.addTodoItems()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="addTodoItems" class="todos.todoscrud.CRUDToDoTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="complete" duration-ms="31990" started-at="2020-09-20T09:48:23Z" finished-at="2020-09-20T09:48:55Z">
+      <class name="todos.todoscrud.FilterTests">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:todos.todoscrud.FilterTests@62043840]" name="setupDriver" is-config="true" duration-ms="27944" started-at="2020-09-20T09:48:23Z" finished-at="2020-09-20T09:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="activeFilter()[pri:0, instance:todos.todoscrud.FilterTests@62043840]" name="activeFilter" duration-ms="2612" started-at="2020-09-20T09:48:51Z" finished-at="2020-09-20T09:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeFilter -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:todos.todoscrud.FilterTests@62043840]" name="quitDriver" is-config="true" duration-ms="1204" started-at="2020-09-20T09:48:54Z" finished-at="2020-09-20T09:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- todos.todoscrud.FilterTests -->
+    </test> <!-- complete -->
+    <test name="create" duration-ms="46496" started-at="2020-09-20T09:48:23Z" finished-at="2020-09-20T09:49:09Z">
+      <class name="todos.todoscrud.CRUDToDoTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="setupDriver" is-config="true" duration-ms="41044" started-at="2020-09-20T09:48:23Z" finished-at="2020-09-20T09:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="goTo()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="goTo" is-config="true" duration-ms="187" started-at="2020-09-20T09:49:04Z" depends-on-methods="commonLib.BaseTest.setupDriver" finished-at="2020-09-20T09:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goTo -->
+        <test-method status="PASS" signature="addTodoItems()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="addTodoItems" duration-ms="2149" started-at="2020-09-20T09:49:04Z" finished-at="2020-09-20T09:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTodoItems -->
+        <test-method status="PASS" signature="CompleteTodo()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="CompleteTodo" duration-ms="1175" started-at="2020-09-20T09:49:06Z" depends-on-methods="todos.todoscrud.CRUDToDoTest.addTodoItems" finished-at="2020-09-20T09:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteTodo -->
+        <test-method status="PASS" signature="activeFilter()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="activeFilter" duration-ms="245" started-at="2020-09-20T09:49:07Z" depends-on-methods="todos.todoscrud.CRUDToDoTest.addTodoItems" finished-at="2020-09-20T09:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeFilter -->
+        <test-method status="PASS" signature="comleteFilter()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="comleteFilter" duration-ms="315" started-at="2020-09-20T09:49:08Z" depends-on-methods="todos.todoscrud.CRUDToDoTest.addTodoItems" finished-at="2020-09-20T09:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comleteFilter -->
+        <test-method status="PASS" signature="deleteTodo()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="deleteTodo" duration-ms="1" started-at="2020-09-20T09:49:08Z" depends-on-methods="todos.todoscrud.CRUDToDoTest.addTodoItems" finished-at="2020-09-20T09:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTodo -->
+        <test-method status="PASS" signature="verifyAddedItemPresentinTodoList()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="verifyAddedItemPresentinTodoList" duration-ms="89" started-at="2020-09-20T09:49:08Z" depends-on-methods="todos.todoscrud.CRUDToDoTest.addTodoItems" finished-at="2020-09-20T09:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedItemPresentinTodoList -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:todos.todoscrud.CRUDToDoTest@566776ad]" name="quitDriver" is-config="true" duration-ms="1254" started-at="2020-09-20T09:49:08Z" finished-at="2020-09-20T09:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- todos.todoscrud.CRUDToDoTest -->
+    </test> <!-- create -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -18,4 +18,15 @@
       </class> <!-- todos.todoscrud.CRUDToDoTest -->
     </classes>
   </test> <!-- create(failed) -->
+  <test thread-count="5" name="complete(failed)">
+    <classes>
+      <class name="todos.todoscrud.FilterTests">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="activeFilter"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- todos.todoscrud.FilterTests -->
+    </classes>
+  </test> <!-- complete(failed) -->
 </suite> <!-- Failed suite [Suite] -->

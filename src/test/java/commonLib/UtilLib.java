@@ -55,7 +55,9 @@ public class UtilLib {
 
 	        // The class loader that loaded the class
 	        ClassLoader classLoader = getClass().getClassLoader();
+	        String path = this.getClass().getClassLoader().getResource(fileName).toExternalForm();
 	        InputStream inputStream = classLoader.getResourceAsStream(fileName);
+	      //  InputStream inputStream = getClass().getResourceAsStream(fileName);
 
 	        // the stream holding the file content
 	        if (inputStream == null) {
@@ -86,6 +88,13 @@ public class UtilLib {
 
      br.lines().forEach(line -> itemsToAdd.add(line));
      logger.info(itemsToAdd);
+     try {
+    	 fis.close();
+		br.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
      return itemsToAdd;
 	 }
 

@@ -1,4 +1,9 @@
+report\TestListener.class
 todos\todoscrud\CRUDToDoTest.class
 commonLib\BaseTest.class
+report\ExtentManager.class
+commonLib\ToDoException.class
+report\ExtentTestManager.class
+report\BasicExtentReport.class
 commonLib\UtilLib.class
 todos\todoscrud\FilterTests.class
