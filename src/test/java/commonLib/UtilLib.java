@@ -57,7 +57,7 @@ public class UtilLib {
 	        ClassLoader classLoader = getClass().getClassLoader();
 	        String path = this.getClass().getClassLoader().getResource(fileName).toExternalForm();
 	        InputStream inputStream = classLoader.getResourceAsStream(fileName);
-	      //  InputStream inputStream = getClass().getResourceAsStream(fileName);
+	      
 
 	        // the stream holding the file content
 	        if (inputStream == null) {

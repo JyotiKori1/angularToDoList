@@ -27,5 +27,5 @@ services:
       - BROWSER=firefox
       - MODULE=testng.xml
     volumes:
-      - ./output/search-result:/usr/share/udemy/test-output  
-      - ./output/extent-result:/usr/share/udemy/TestReport
+      - ./output/search-result:/usr/share/jyoti/test-output  
+      - ./output/extent-result:/usr/share/jyoti/TestReport 

@@ -62,10 +62,7 @@ public class BaseTest {
         
         String completeUrl="http://"+host+":4444/wd/hub";
         
-       // this.driver=new RemoteWebDriver(new URL(completeUrl),dc);
-       // URL url=new URL("http://localhost:4444/wd/hub");
-		// driver=new RemoteWebDriver(url, dc);
-      // this.driver.manage().window().maximize();
+      
 		 
 		 URL url=new URL("http://"+host+":"+"4444"+"/wd/hub");
 	        System.out.println("Complete Url :" +url);
