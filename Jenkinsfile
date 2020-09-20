@@ -2,21 +2,14 @@ pipeline {
     agent any
     stages {
         stage('Build Jar') {
-           agent {
-              docker {
-               image 'maven:3-alpine'
-                   args '-v $HOME/.m2:/root/.m2'
-               }
-          }
             steps {
-                //sh 
-                bat 'mvn clean package -DskipTests'
+                bat "mvn clean package -DskipTests"
             }
         }
        stage('Build Image') {
            steps {
               
-              bat "docker build jyotikori/todoitems-docker ."
+              bat "docker build -t=jyotikori/todoitems-docker ."
          
             }
      }
@@ -35,4 +28,4 @@ pipeline {
             }
         }
     }
-
+}
