@@ -21,7 +21,7 @@ pipeline {
 			        //    app.push("latest")
 			        bat "docker login --username=${user} --password=${pass}"
 			        echo "docker login completed"
-			        bat "docker push jyotikori/todoitems-docker:latest"
+			        bat "docker push JyotiKori/todoitems-docker:latest"
 			        echo "docker push completed"
 			    
                 }
