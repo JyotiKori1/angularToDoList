@@ -16,7 +16,7 @@ pipeline {
        stage('Build Image') {
            steps {
               
-              bat "docker build("jyotikori/todoitems-docker")"
+              bat "docker build("jyotikori/todoitems-docker .")"
          
             }
      }
